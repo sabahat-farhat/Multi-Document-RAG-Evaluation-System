@@ -3,7 +3,7 @@ from pathlib import Path
 
 
 class Settings(BaseSettings):
-    google_api_key: str
+    groq_api_key: str
     chroma_persist_dir: str = "./chroma_db"
     upload_dir: str = "../data/uploads"
     chunk_size: int = 500

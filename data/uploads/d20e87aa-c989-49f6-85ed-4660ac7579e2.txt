@@ -1,0 +1,15 @@
+Artificial Intelligence Overview
+
+Artificial Intelligence (AI) is the simulation of human intelligence by machines. It includes machine learning, deep learning, and natural language processing.
+
+Machine Learning is a subset of AI where systems learn from data to improve performance without being explicitly programmed. Common algorithms include linear regression, decision trees, and neural networks.
+
+Deep Learning uses neural networks with many layers to learn complex patterns. It powers image recognition, speech recognition, and language translation.
+
+Natural Language Processing (NLP) allows machines to understand and generate human language. Applications include chatbots, sentiment analysis, and text summarization.
+
+Large Language Models (LLMs) are trained on massive text datasets and can generate human-like text. Examples include GPT-4, Gemini, and Claude.
+
+Retrieval Augmented Generation (RAG) is a technique that combines document retrieval with LLM generation. Instead of relying on training data alone, RAG fetches relevant documents and uses them as context for answering questions. This reduces hallucinations and keeps answers grounded in real documents.
+
+Vector databases store text as numerical embeddings, allowing semantic search. Similar meanings are stored close together in vector space. ChromaDB, Pinecone, and FAISS are popular vector databases.
