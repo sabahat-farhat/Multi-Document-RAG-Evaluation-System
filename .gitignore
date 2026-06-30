@@ -1,0 +1,25 @@
+# Environment
+.env
+*.env
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+venv/
+*.egg-info/
+
+# Vector database (auto-generated, can be rebuilt)
+backend/chroma_db/
+
+# Uploaded documents (user data, not code)
+data/uploads/*
+!data/uploads/.gitkeep
+
+# Node
+frontend/node_modules/
+frontend/dist/
+
+# OS
+.DS_Store
+Thumbs.db
